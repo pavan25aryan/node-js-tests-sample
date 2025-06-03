@@ -20,5 +20,5 @@ name: CI/CD pipeline
         run: npm test
     deploy:
       steps:
-        -name: Deploy to production
+        -name: deploy to production
         run: npm run
